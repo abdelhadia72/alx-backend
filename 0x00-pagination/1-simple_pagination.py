@@ -5,9 +5,6 @@ from typing import Tuple
 
 
 def index_range(page: int, page_size: int) -> Tuple[int, int]:
-    """
-        function takes 2 int and return ta tuple include start and end of the page
-    """
     start = (page - 1) * page_size
     end = page * page_size
 
